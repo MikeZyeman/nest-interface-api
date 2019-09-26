@@ -1,8 +1,9 @@
 {
   "name": "nest-interface-api",
   "version": "0.0.1",
-  "description": "",
-  "author": "",
+  "description": "A api for a shopify interface. Simple and easy",
+  "author": "Mike Zyeman",
+  "repository": "https://github.com/MikeZyeman/nest-interface-api",
   "license": "MIT",
   "scripts": {
     "build": "rimraf dist && tsc -p tsconfig.build.json",
@@ -22,6 +23,7 @@
     "@nestjs/common": "^6.7.2",
     "@nestjs/core": "^6.7.2",
     "@nestjs/platform-express": "^6.7.2",
+    "pug": "^2.0.4",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
     "rxjs": "^6.5.3"
